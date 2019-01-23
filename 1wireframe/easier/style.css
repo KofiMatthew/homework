@@ -2,67 +2,94 @@
 body {
     background: #777574;
     text-align: center;
+    font-size: 20px;
+    padding: .2% 15% 10% 10%;
     
 }
 .container {
-    width: 75%;
-    position: absolute;
-    top 1%;
-    left 15%;
-    /* margin: 0 auto; */
-    /* padding: -15px 10px -10px 10px; */
     
-
-}
-.type1 {
-    position: relative;
-    /* margin: 1% auto 1% auto; */
-    background: #e5e7e9;
-    color: #777574;
-    /* padding: 10px; */
-    height: 100px;
-    font-size: 24px;
     font-family: sans-serif;
-
-}
-#header {
-
-
-}
-#nav {
-
+    width: 1300px;
+    height: 950px;  
 }
 
-.type2 {
+header {
     background: #e5e7e9;
     color: #777574;
+    height: 4%;
+    /* left: 50%; */
+    padding: 4%;
+    margin: 0 0 1% 0;
+
+
 }
-#section{
+nav {
+    background: #e5e7e9;
+    color: #777574;
+    height: 4%;
+    padding: 4%;
+    margin: 0 0 2% 0;
+}
+
+section {
+    background: #e5e7e9;
+    color: #777574;
+    height: 30%;
+    width: 50%;
     float: left;
     position: relative;
+    padding: 4%;
+    margin: 0 0 2% 0; 
 
 
 }
-#article {
+article {
+    height: 80%;
+    width: 105%;
+    padding: 3%;
+    margin: 5% -5.5% 0 -5%;
     background: #777574;
-    color: #e5e7e9
+    color: #e5e7e9;
+    /* z-index: -1; */
 }
-.type3 {
+
+h1 {
+    height: 10%;
+    width: 94%;
+    font-display: strong;
     background: #e5e7e9;
     color: #777574;
-}
-#hhh {
-    font-display: strong;
-
-}
-#p {
-
-}
-#aside {
-    float: left;
+    padding: 3%;
+    margin: 5% 10% 0 0;
+    /* z-index: 1; */
 
 
 }
-#footer {
+p {
+    height: 10%;
+    width: 94%;
+    background: #e5e7e9;
+    color: #777574;
+    padding: 3%;
+    margin: 2% 10% 0 0;
+    /* z-index: 1; */
 
+}
+aside {
+    background: #e5e7e9;
+    color: #777574;
+    height: 30%;
+    width: 32%;
+    float: right;
+    padding: 4%;
+
+}
+
+footer {
+    position: relative;
+    clear:both;
+    background: #e5e7e9;
+    color: #777574;
+    height: 4%;
+    margin: -10% 0 10% 0;
 }
